@@ -1,0 +1,110 @@
+ion-header {
+  ion-toolbar {
+
+    ion-title {
+      min-height: 100px;
+
+      img {
+        width: 65px;
+        vertical-align: middle;
+        margin-right: 10px;
+
+      }
+
+      span {
+        font-size: 16px;
+      }
+
+      ion-button {
+        display: block;
+      }
+    }
+  }
+}
+
+ion-content {
+  .background {
+    display: none;
+
+    .bank-information {
+      .code {
+        width: 100px;
+        margin: 16px auto;
+        display: block;
+      }
+
+      span {
+        margin: 5px 0;
+        font-size: 14px;
+        display: block;
+      }
+    }
+
+    ion-list {
+      margin-top: 32px;
+      background: transparent;
+
+      ion-item {
+
+        color: #fff;
+        --background: transparent;
+        --detail-icon-opacity: 1;
+
+        &:first-of-type {
+          border-top: 0.55px solid rgba(255, 255, 255, 0.7);
+        }
+      }
+    }
+
+    .logout {
+      margin-top: 32px;
+      margin-bottom: 100px;
+    }
+  }
+
+  .blocks {
+    ion-card {
+      .cash {
+        span {
+          &.value {
+            font-size: 30px;
+            display: block;
+          }
+          &.blue{
+            color: #0878e0
+          }
+          &.green{
+            color: #94c22b;
+          }
+        }
+      }
+      .footer{
+        background: #f4f5f8;
+      }
+    }
+  }
+}
+
+ion-footer {
+  ion-slide {
+    .container {
+      width: 100%;
+      height: 100px;
+      background-color: var(--ion-color-primary-tint);
+      padding: 10px;
+      margin: 0 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      ion-icon {
+        font-size: 24px;
+      }
+
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+}
